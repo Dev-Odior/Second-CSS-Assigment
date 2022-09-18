@@ -1,0 +1,77 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background: #8a0707;
+  margin: 0;
+}
+
+h1 {
+  font-size: 64px;
+  margin-bottom: 0;
+  color: white;
+  cursor: pointer;
+}
+
+body > :nth-child(2) {
+  color: #bdb6c2;
+  font-size: 14px;
+}
+
+.image_block {
+  background-image: url(1.jpg);
+  background-position: cover;
+  margin: 10px auto;
+  width: 98%;
+  padding: 10px 0px 5px;
+  background-color: #8a0707;
+  background-blend-mode: overlay;
+}
+
+img {
+  width: 80%;
+  margin: auto;
+}
+
+.List,
+p {
+  color: white;
+  cursor: pointer;
+}
+
+.List {
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.List > h3 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+ul {
+  width: 50%;
+  line-height: 1.4;
+  margin: 0 auto 40px;
+  text-align: left;
+}
+
+li {
+  margin: 15px 0;
+}
+
+.quote {
+  font-style: italic;
+  width: 50%;
+  line-height: 1.4;
+  margin: 0 auto 60px;
+  text-align: left;
+}
+
+a {
+  color: #477ca7;
+  text-decoration: none;
+}
+
+footer {
+  margin-bottom: 50px;
+}
